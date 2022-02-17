@@ -583,9 +583,6 @@ searchEngineLogoPath = staticServerURI + "img/"; (function(f, h) {
         type: "get",
         async: !0,
         timeout: 0,
-        data: {
-            _rd: (new Date).getTime()
-        },
         dataType: "json",
         success: function(c) {
             // var siteClasses = c;
