@@ -55,22 +55,7 @@
                 g.src = b
             }
         },
-        getWeather: function(e) {
-            $.ajax({
-                url: serverURI + "/front/animation/weather",
-                type: "get",
-                async: !0,
-                timeout: 0,
-                data: {
-                    _rd: (new Date).getTime()
-                },
-                dataType: "json",
-                success: function(c) {
-                    0 != c.success && (c = c.weather, $.isEmptyObject(c) || a.initWeatherAnimation(c, e))
-                }
-            })
-        }
-    });
+        });
     f.MyAnimation = a
 })(window, void 0); (function(f, h) {
     var a = {};
