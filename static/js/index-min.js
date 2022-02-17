@@ -1559,7 +1559,7 @@ $(function() {
     var f = MyLocalStore.getNavBgId();
     // if ($.isEmptyObject(f) || "null" == String(f) || "undefined" == String(f)) f = "105";
     if ($.isEmptyObject(f) || "null" == String(f) || "undefined" == String(f)) {
-        $.isEmptyObject(f) || $(document.body).css("background-image", "url('static/img/background.jpg')");
+        $.isEmptyObject(f) || $(document.body).css("background-image", "url('https://img1.p1e.cn/155/static/img/background.jpg')");
         setTimeout(function() {
                 MyApplication.init()
             },
